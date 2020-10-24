@@ -1,9 +1,23 @@
-A brief identification of the team members:
-Answer: I am Cai Jianlin, and my student ID is 3035500970, studying Computing and Data Analytics and Mathematics
+ENGG 1340 Project
+3035693492 	Jarvis Yu
+3035500970	Jianlin Cai
 
-A game description with basic game rules.
-I will do bubble sorting in the project, where it is an essential process in dealing with the data, sometimes, python and C++ are usually involved in it.
-There would be some real-world examples, with basic algorithms and mechanism.
+Tic Tac Toe game
 
-A list of features / functions
-At this stage, the different bubble sorting cases would be discussed.
+We can use C++ to write a program for users to play the game.
+
+We have several variables: 
+n denotes n by n matrix for the game space.
+xs and ys denote the coordinate of the game space.
+If there is 3 diagonal sets, horizontal sets or vertical sets, then there would be winner.
+
+If there is a draw when all the empty spaces are filled in but no sets appear.
+
+At any time, the game can be saved and loaded.
+But the Game with Status “Finished” cannot be loaded.
+
+Game ID 	X coordinate	O coordinate	Winner	Status
+1	(1,2);(3,1)	(3,3);(2,2)	None	Not finished
+2	(1,1);(2,2);(3,3)	(1,2);(2,3)	X	Finished
+
+ 
